@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  
+  
+  
+spring:
+  datasource:
+    password: rahul
+    url: jdbc:mysql://localhost:3306/database
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  
+  application:
+    name: Product Application
